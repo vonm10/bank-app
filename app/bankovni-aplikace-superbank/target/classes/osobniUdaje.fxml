@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="cz.vse.java.OsobniUdajeController"
+            prefHeight="480.0" prefWidth="410.0"
+            stylesheets="stylesheet.css">
+   <VBox>
+       <Label alignment="TOP_CENTER"  styleClass="superbank">Superbank<padding><Insets top="0" right="155" bottom="0" left="155" />
+       </padding>    </Label>
+    <HBox spacing="50">
+    <VBox spacing="10">
+        <Label styleClass="lab">Osobní údaje</Label>
+        <Label styleClass="lab2">Jméno:</Label>
+        <Label styleClass="lab2">Email:</Label>
+        <Label styleClass="lab2">Telefon:</Label>
+        <Label styleClass="lab">Pobočka</Label>
+        <Label styleClass="lab2">Adresa: </Label>
+        <Label></Label>
+        <Label styleClass="lab2">Telefon: </Label>
+    </VBox>
+        <VBox  spacing="10">
+            <Label styleClass="lab"></Label>
+            <Label fx:id="name"></Label>
+            <Label fx:id="email"></Label>
+            <Label fx:id="telefon"></Label>
+            <Label styleClass="lab"></Label>
+            <Label>Lesní 308, Praha 4</Label>
+            <Label>134 56</Label>
+            <Label>+420 759 900 878</Label>
+        </VBox>
+    </HBox>
+        <HBox fx:id="dolníMenu" alignment="BOTTOM_CENTER">
+
+            <Button fx:id="hlavniStranka">Hlavní stránka</Button>
+            <Button fx:id="novaPlatba">Nová platba</Button>
+            <Button fx:id="osobniUdaje">Osobní udaje</Button>
+        </HBox>
+
+    </VBox>
+
+</AnchorPane>

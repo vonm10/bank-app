@@ -1,0 +1,55 @@
+<cz.vse.java.model.Uzivatel>
+  <jmeno>Milan Pavel</jmeno>
+  <email>milapavo@gmail.com</email>
+  <telefon>+420 689 906 450</telefon>
+  <produkty class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map">
+    <entry>
+      <string>Karta</string>
+      <cz.vse.java.model.Produkt>
+        <typProduktu>Karta</typProduktu>
+        <cislo>110854197</cislo>
+        <zustatek>8</zustatek>
+        <historie class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map">
+          <entry>
+            <string>Platba</string>
+            <string>2</string>
+          </entry>
+          <entry>
+            <string>Převod na účet 567609234</string>
+            <string>13</string>
+          </entry>
+          <entry>
+            <string>Převod na účet 456789071</string>
+            <string>1</string>
+          </entry>
+          <entry>
+            <string>Převod na účet 649557111</string>
+            <string>2</string>
+          </entry>
+        </historie>
+      </cz.vse.java.model.Produkt>
+    </entry>
+    <entry>
+      <string>Účet</string>
+      <cz.vse.java.model.Produkt>
+        <typProduktu>Účet</typProduktu>
+        <cislo>891033254</cislo>
+        <zustatek>20</zustatek>
+        <historie class="com.google.gson.internal.LinkedTreeMap" resolves-to="linked-hash-map">
+          <entry>
+            <string>Převod na účet 198065446</string>
+            <string>1</string>
+          </entry>
+          <entry>
+            <string>Převod na účet 000000000</string>
+            <string>4</string>
+          </entry>
+          <entry>
+            <string>Převod na účet 123123123</string>
+            <string>32</string>
+          </entry>
+        </historie>
+      </cz.vse.java.model.Produkt>
+    </entry>
+  </produkty>
+</cz.vse.java.model.Uzivatel>

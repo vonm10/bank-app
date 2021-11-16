@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="480.0" prefWidth="410.0" stylesheets="stylesheet.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cz.vse.java.HistorieProduktuController">
+
+
+<VBox>
+    <Label alignment="TOP_CENTER" styleClass="superbank">Superbank<padding><Insets bottom="0" left="155" right="155" top="0" />
+    </padding>    </Label>
+    <HBox spacing="250">
+        <VBox spacing="8">
+            <Label fx:id="nazevHistorie" />
+
+            <VBox fx:id="historie" spacing="8">
+
+            </VBox>
+
+            <Label fx:id="zustatek" />
+        </VBox>
+
+    </HBox>
+
+
+
+        <HBox fx:id="dolníMenu" alignment="BOTTOM_CENTER">
+
+
+            <Button fx:id="kartaHistorie" >Historie</Button>
+            <Button fx:id="kartaInformace" >Informace</Button>
+            <Button fx:id="zpet" >Zpět</Button>
+        </HBox>
+    </VBox>
+
+</AnchorPane>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="cz.vse.java.NovaPlatbaController"
+            prefHeight="480.0" prefWidth="410.0"
+            stylesheets="stylesheet.css">
+        <VBox spacing="10">
+            <Label alignment="TOP_CENTER"  styleClass="superbank">Superbank<padding><Insets top="0" right="155" bottom="0" left="155" />
+            </padding>    </Label>
+
+            <Label>Produkt</Label>
+            <ComboBox fx:id="vyberProduktu">
+
+            </ComboBox>
+            <Label>Číslo bankovního účtu příjemce</Label>
+            <TextField fx:id="cisloUctu"></TextField>
+            <Label>Částka</Label>
+            <TextField fx:id="castka"></TextField>
+
+            <Button fx:id="potvrditPlatbu"><padding>
+                <Insets top="10" right="143" bottom="10" left="143" />
+            </padding>Potvrdit platbu</Button>
+
+
+            <HBox fx:id="dolníMenu" alignment="BOTTOM_CENTER">
+
+                <Button fx:id="hlavniStranka">Hlavní stránka</Button>
+                <Button fx:id="novaPlatba">Nová platba</Button>
+                <Button fx:id="osobniUdaje">Osobní udaje</Button>
+            </HBox>
+
+        </VBox>
+</AnchorPane>

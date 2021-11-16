@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="cz.vse.java.HlavniStrankaController"
+            prefHeight="480.0" prefWidth="410.0"
+            stylesheets="stylesheet.css">
+
+
+    <VBox>
+
+        <Label alignment="TOP_CENTER"  styleClass="superbank">Superbank<padding><Insets top="0" right="155" bottom="0" left="155" />
+        </padding>    </Label>
+        <Label styleClass="lab">Produkty</Label>
+        <HBox spacing="310" >
+            <VBox fx:id="produkty"  spacing="8" alignment="TOP_LEFT">
+             </VBox>
+            <VBox fx:id="historie"  spacing="8" alignment="TOP_RIGHT">
+
+            </VBox>
+        </HBox>
+
+
+
+
+        <HBox fx:id="dolníMenu" alignment="BOTTOM_CENTER">
+
+            <Button fx:id="hlavniStranka">Hlavní stránka</Button>
+            <Button fx:id="novaPlatba">Nová platba</Button>
+            <Button fx:id="osobniUdaje">Osobní udaje</Button>
+        </HBox>
+    </VBox>
+
+
+
+
+
+</AnchorPane>

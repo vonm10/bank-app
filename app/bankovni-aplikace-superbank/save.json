@@ -1,0 +1,28 @@
+{
+  "jmeno": "Milan Pavel",
+  "email": "milapavo@gmail.com",
+  "telefon": "+420 689 906 450",
+  "produkty": {
+    "Karta": {
+      "typProduktu": "Karta",
+      "cislo": "110854197",
+      "zustatek": 7,
+      "historie": {
+        "Platba": "2",
+        "Převod na účet 567609234": "13",
+        "Převod na účet 456789071": "1",
+        "Převod na účet 123123123": "3"
+      }
+    },
+    "Účet": {
+      "typProduktu": "Účet",
+      "cislo": "891033254",
+      "zustatek": 20,
+      "historie": {
+        "Převod na účet 198065446": "1",
+        "Převod na účet 000000000": "4",
+        "Převod na účet 123123123": "32"
+      }
+    }
+  }
+}

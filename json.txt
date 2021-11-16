@@ -1,0 +1,22 @@
+{
+	"jmeno": ,
+	"prijmeni": ,
+	"email": ,
+	"telefon" : ,
+	"produkty": {
+		"Ucet": {
+			"cislo": ,
+			"predcisli": ,
+			"kodBanky": ,
+			"zustatek": ,
+			"historie": [
+				{
+					"prevod": -500,
+					"splatka": -300
+				}
+			]
+		}
+	}
+}
+
+

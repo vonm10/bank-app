@@ -1,0 +1,44 @@
+.root {
+    -fx-background-color: azure;
+    -fx-font-family: "Century Gothic";
+    -fx-font-size: 17;
+}
+
+
+.superbank{
+    -fx-font-family: "fantasy";
+    -fx-font-size: 35;
+    -fx-font-smoothing-type: gray;
+    -fx-font-style: bold;
+}
+.dolnímenu {
+    -fx-border-color: black;
+    -fx-font-size: 23;
+
+}
+.lab {
+    -fx-font-size: 23;
+    -fx-font-style: bold;
+
+}
+
+.lab2 {
+    -fx-font-size: 18;
+
+}
+
+.superbank{
+    -fx-font-size: 18;
+    -fx-font-style: bold;
+}
+.button{
+    -fx-background-color: ghostwhite;
+    -fx-border-color: black;
+    -fx-font-style: bold;
+
+}
+
+.text-area{
+    -fx-background-color: rgb(255,255,255);
+    -fx-font-size: 15;
+}
